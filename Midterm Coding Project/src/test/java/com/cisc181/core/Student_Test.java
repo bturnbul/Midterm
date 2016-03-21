@@ -12,6 +12,10 @@ public class Student_Test {
 
 	@BeforeClass
 	public static void setup() {
+		Course physics = new Course("Physics",100);
+		Course english = new Course("English",100);
+		Course math = new Course("Math",100);
+		
 	}
 
 	@Test
